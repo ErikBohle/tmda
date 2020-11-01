@@ -211,12 +211,12 @@
                     <!-- Excerpt -->
                     <article class="box excerpt">
                       <header id="tak">
-                        <span class="date">Tak</span>
-                        <h3>Tak tekst</h3>
+                        
+                        <h3><span class="date">Tak</span></h3>
                       </header>
                       <p>
-                        Lorem ipsum dolor odio facilisis convallis. Etiam non nunc vel est suscipit
-                        convallis non id orci lorem ipsum sed magna consequat feugiat lorem dolore.
+                        Vi utfører alt av takarbeid. Vi tilbyr løsninger i alle ledd, fra start til slutt, for privat og kommersielle behov. Vi skreddersyr jobben og imøtekommer behovene, om det så er reparasjon eller erstattelse.
+                        
                       </p>
                     </article>
                   </li>
@@ -277,16 +277,7 @@
               </section>
 
               <!-- Highlights -->
-              <section>
-                <ul class="divided">
-
-                  <li>
-                    <!-- Highlight -->
-                    
-                      
-                  </li>
-                </ul>
-              </section>
+              
             </div>
           </div>
         </div>
@@ -301,21 +292,23 @@
           <div class="row">
             <div class="col-6 col-12-medium">
               <section>
-                <form method="post" action="#">
+                <form method="post"  action="https://formspree.io/f/mjvprrdw">
                   <div class="row gtr-50">
                     <div class="col-6 col-12-small">
-                      <input name="name" placeholder="Navn" type="text" />
+                      <label for="message">Navn</label>
+                      <input required name="name"  type="text" />
                     </div>
                     <div class="col-6 col-12-small">
-                      <input name="email" placeholder="Epost" type="text" />
+                      <label for="message">Epost</label>
+                      <input required name="_replyto"  type="text" />
                     </div>
                     <div class="col-12">
-                      <textarea name="message" placeholder="Message"></textarea>
+                      <label for="message">Melding</label>
+                      <textarea required id="message" name="message" ></textarea>
                     </div>
                     <div class="col-12">
-                      <a href="#" class="form-button-submit button icon solid fa-envelope"
-                        >Send melding</a
-                      >
+                      <button class="form-button-submit button icon solid fa-envelope" type="submit">Send melding</button>
+                      
                     </div>
                   </div>
                 </form>
