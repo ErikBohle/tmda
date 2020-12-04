@@ -37,7 +37,7 @@
 		// Title Bar.
 			$(
 				'<div id="titleBar">' +
-					'<a href="#navPanel" class="toggle"></a>' +
+					'<a href="#navPanel" alt="test" class="toggle"> &nbsp</a>' +
 				'</div>'
 			)
 				.appendTo($body);
